@@ -11,10 +11,4 @@ class WordList:
                 if line:
                     l = line.strip()
                     if not l.startswith('#'):
-                        self.word_list.append(self.__expr_evaluator(l))
-
-    def __expr_evaluator(self, expression):
-        try:
-            return eval(expression)
-        except NameError as e:
-            return expression
+                        self.word_list.append(l)

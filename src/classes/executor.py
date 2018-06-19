@@ -13,7 +13,8 @@ class Executor:
 
     def __execute(self):
         try:
-            output = sub.run(args=self.target + " " + self.argument, stdout=sub.PIPE, stderr=sub.STDOUT, shell=True, check=True)
+            output = sub.run(args=self.target + " " + self.argument, stdout=sub.PIPE, stderr=sub.STDOUT, shell=True,
+                             check=True)
             self.stdout = output.stdout.decode('utf-8')
             self.signal = output.returncode
             self.execution_successful = True
