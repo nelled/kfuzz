@@ -1,3 +1,6 @@
 /__pycache__
 *.pyc
 /.idea/
+resources/test_programs/.format.c.swp
+resources/test_programs/.gdb_history
+resources/test_programs/peda-session-format.txt
