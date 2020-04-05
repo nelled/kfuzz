@@ -1,12 +1,4 @@
----
-author:
-- |
-    Daniel Nelle\
-    dnelle\@uni-potsdam.de\
-title: |
-    Lab No. 2\
-    Software Security summer term 2018
----
+
 
 Description
 ===========
